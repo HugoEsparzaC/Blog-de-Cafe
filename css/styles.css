@@ -176,6 +176,10 @@ img {
     padding-top: 4rem;
 }
 
+.sobre-nosotros__texto p {
+    margin-top: 0;
+}
+
 @media (min-width: 768px) {
     .barra {
         display: flex;
@@ -196,5 +200,10 @@ img {
     }
     .boton {
         display: inline-block;
+    }
+    .sobre-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
 }
